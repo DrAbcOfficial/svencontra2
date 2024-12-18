@@ -40,8 +40,8 @@ class CProjBullet : ScriptBaseAnimating{
     float flSpeed = 800;
     float flScale = 0.5f;
     int iDamageType = DMG_BULLET;
-    Vector vecHullMin = Vector(-4, -4, -4);
-    Vector vecHullMax = Vector(4, 4, 4);
+    Vector vecHullMin = Vector(-1, -1, -1);
+    Vector vecHullMax = Vector(1, 1, 1);
     //Exp vars
     string szExpSpr = "sprites/svencontra2/bullet_fghit.spr";
     string szExpSound = "weapons/svencontra2/shot_fghit.wav";
